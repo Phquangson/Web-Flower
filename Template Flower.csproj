@@ -127,6 +127,44 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\0-base\_mixins.css" />
+    <Content Include="assets\css\0-base\_variables.css" />
+    <Content Include="assets\css\1-global\_color.css" />
+    <Content Include="assets\css\1-global\_default.css" />
+    <Content Include="assets\css\2-layout\_footer.css" />
+    <Content Include="assets\css\2-layout\_header.css" />
+    <Content Include="assets\css\3-pages\_about-us.css" />
+    <Content Include="assets\css\3-pages\_blog.css" />
+    <Content Include="assets\css\3-pages\_contact.css" />
+    <Content Include="assets\css\3-pages\_error-404.css" />
+    <Content Include="assets\css\3-pages\_faq.css" />
+    <Content Include="assets\css\3-pages\_login-register.css" />
+    <Content Include="assets\css\3-pages\_my-account.css" />
+    <Content Include="assets\css\3-pages\_shop.css" />
+    <Content Include="assets\css\3-pages\_single-product.css" />
+    <Content Include="assets\css\3-pages\_wishlist.css" />
+    <Content Include="assets\css\4-components\_banner.css" />
+    <Content Include="assets\css\4-components\_brand-logo.css" />
+    <Content Include="assets\css\4-components\_breadcrumb.css" />
+    <Content Include="assets\css\4-components\_button.css" />
+    <Content Include="assets\css\4-components\_categories.css" />
+    <Content Include="assets\css\4-components\_collection.css" />
+    <Content Include="assets\css\4-components\_history.css" />
+    <Content Include="assets\css\4-components\_modal.css" />
+    <Content Include="assets\css\4-components\_newsletter.css" />
+    <Content Include="assets\css\4-components\_product-countdown.css" />
+    <Content Include="assets\css\4-components\_product.css" />
+    <Content Include="assets\css\4-components\_slider.css" />
+    <Content Include="assets\css\4-components\_testimonial.css" />
+    <Content Include="assets\css\plugins\animate.min.css" />
+    <Content Include="assets\css\plugins\jquery-ui.min.css" />
+    <Content Include="assets\css\plugins\magnific-popup.css" />
+    <Content Include="assets\css\plugins\nice-select.min.css" />
+    <Content Include="assets\css\plugins\swiper-bundle.min.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\css\vendor\bootstrap.min.css" />
+    <Content Include="assets\css\vendor\font.awesome.min.css" />
+    <Content Include="assets\css\vendor\linearicons.min.css" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -152,6 +190,10 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="assets\css\1-global\_helper.css" />
+    <Content Include="assets\css\3-pages\_cart.css" />
+    <Content Include="assets\css\3-pages\_checkout.css" />
+    <Content Include="assets\css\3-pages\_compare.css" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -178,6 +220,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="assets\fonts\" />
+    <Folder Include="assets\images\" />
+    <Folder Include="assets\js\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
