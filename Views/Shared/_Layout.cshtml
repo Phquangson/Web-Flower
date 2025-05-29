@@ -1,39 +1,84 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>FloSun - Flower Shop HTML5 Template</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS
+    ============================================ -->
+    <link rel="stylesheet" href="~/assets/css/vendor/bootstrap.min.css">
+
+    <link href="~/assets/css/4-components/_product.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/assets/css/4-components/_product-countdown.css">
+
+    <link rel="stylesheet" href="~/assets/css/plugins/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="~/assets/css/vendor/linearicons.min.css">
+
+    <link rel="stylesheet" href="~/assets/css/4-components/_button.css">
+
+    <link rel="stylesheet" href="~/assets/css/1-global/_helper.css">
+
+    <link rel="stylesheet" href="~/assets/css/1-global/_default.css">
+
+    <link rel="stylesheet" href="~/assets/css/style.css">
+
+    <link rel="stylesheet" href="~/assets/css/4-components/_slider.css">
+
+    <link rel="stylesheet" href="~/assets/css/2-layout/_header.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
-        <div class="container">
-            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+    @Html.Partial("_Header")
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    <main>
+        @RenderBody()
+    </main>
+
+    @Html.Partial("_Footer")
+
+    <!-- JS
+    ============================================ -->
+    <!-- Swiper Slider JS -->
+    <script src="~/assets/js/plugins/swiper-bundle.min.js"></script>
+    <!-- nice select JS -->
+    <script src="~/assets/js/plugins/nice-select.min.js"></script>
+    <!-- Ajaxchimpt js -->
+    <script src="~/assets/js/plugins/jquery.ajaxchimp.min.js"></script>
+    <!-- Jquery Ui js -->
+    <script src="~/assets/js/plugins/jquery-ui.min.js"></script>
+    <!-- Jquery Countdown js -->
+    <script src="~/assets/js/plugins/jquery.countdown.min.js"></script>
+    <!-- jquery magnific popup js -->
+    <script src="~/assets/js/plugins/jquery.magnific-popup.min.js"></script>
+
+    <!-- jQuery JS -->
+    <script src="~/assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <!-- jQuery Migrate JS -->
+    <script src="~/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <!-- Modernizer JS -->
+    <script src="~/assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="~/assets/js/vendor/bootstrap.bundle.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="~/assets/js/main.js"></script>
+
 </body>
 </html>

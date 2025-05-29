@@ -90,14 +90,14 @@
     .categories-content
 
 {
-    background: $primary-color;
+    background:  primary-color;
 }
 
 }
 }
 
 .categories-content {
-    background: $white-color;
+    background:  white-color;
     left: 50%;
     margin: 0;
     margin-right: -50%;
@@ -127,7 +127,7 @@
     >h4
 
 {
-    color: $primary-color;
+    color:  primary-color;
     font-size: 11px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -138,5 +138,5 @@
 
 .categories-img:hover .categories-content > h3,
 .categories-img:hover .categories-content > h4 {
-    color: $white-color;
+    color:  white-color;
 }

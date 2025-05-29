@@ -32,8 +32,8 @@ overflow: hidden;
 {
     top: 30px;
     left: 30px;
-    background: $default-color;
-    font-family: $body-font-family-name;
+    background: default-color;
+    font-family: body-font-family-name;
     font-weight: 500;
     font-size: 12px;
     height: 20px;
@@ -45,7 +45,7 @@ overflow: hidden;
 }
 
 .product-content {
-    background-color: $white-color;
+    background-color: white-color;
     padding: 20px 20px;
     text-align: center;
     .product-rating
@@ -55,7 +55,7 @@ overflow: hidden;
     i
 
 {
-    color: $primary-color;
+    color: primary-color;
 }
 
 }
@@ -88,7 +88,7 @@ overflow: hidden;
 
 .old-price {
     margin-left: 5px;
-    color: $chyan-color;
+    color: chyan-color;
 }
 
 }
@@ -106,7 +106,7 @@ overflow: hidden;
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: $black-color;
+    color: black-color;
 }
 
 }
@@ -139,7 +139,7 @@ overflow: hidden;
 
 {
     transition: .3s;
-    background-color: $primary-color;
+    background-color: primary-color;
 }
 
 }
@@ -186,7 +186,7 @@ overflow: hidden;
     &:hover
 
 {
-    color: $primary-color;
+    color: primary-color;
 }
 
 }
@@ -220,9 +220,9 @@ overflow: hidden;
 }
 
 .onsale {
-    background: $primary-color;
+    background: primary-color;
     box-shadow: none;
-    color: $white-color;
+    color: white-color;
     font-size: 15px;
     font-weight: 500;
     height: 100px;

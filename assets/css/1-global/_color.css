@@ -2,137 +2,137 @@
 /*    03 - Global - Color
 /*----------------------------------------*/
 .primary-color {
-    color: $primary-color;
+    color:  primary-color;
 }
 
 .facebook-color {
-    color: $facebook;
+    color:  facebook;
     &:hover
 
 {
-    color: $primary-color;
+    color:  primary-color;
 }
 
 }
 
 .twitter-color {
-    color: $twitter;
+    color:  twitter;
     &:hover
 
 {
-    color: $primary-color;
+    color:  primary-color;
 }
 
 }
 
 .linkedin-color {
-    color: $linkedin;
+    color:  linkedin;
     &:hover
 
 {
-    color: $primary-color;
+    color:  primary-color;
 }
 
 }
 
 .pinterest-color {
-    color: $pinterest;
+    color:  pinterest;
     &:hover
 
 {
-    color: $primary-color;
+    color:  primary-color;
 }
 
 }
 
 .youtube-color {
-    color: $youtube;
+    color:  youtube;
     &:hover
 
 {
-    color: $primary-color;
+    color:  primary-color;
 }
 
 }
 
 .vimeo-color {
-    color: $vimeo;
+    color:  vimeo;
     &:hover
 
 {
-    color: $primary-color;
+    color:  primary-color;
 }
 
 }
 /*-- Social Color Background --*/
 .facebook-color-bg {
-    background-color: $facebook;
-    color: $white-color;
+    background-color:  facebook;
+    color:  white-color;
     &:hover
 
 {
-    background-color: $primary-color;
-    color: $white-color;
+    background-color:  primary-color;
+    color:  white-color;
 }
 
 }
 
 .twitter-color-bg {
-    background-color: $twitter;
-    color: $white-color;
+    background-color:  twitter;
+    color:  white-color;
     &:hover
 
 {
-    background-color: $primary-color;
-    color: $white-color;
+    background-color:  primary-color;
+    color:  white-color;
 }
 
 }
 
 .linkedin-color-bg {
-    background-color: $linkedin;
-    color: $white-color;
+    background-color:  linkedin;
+    color:  white-color;
     &:hover
 
 {
-    background-color: $primary-color;
-    color: $white-color;
+    background-color:  primary-color;
+    color:  white-color;
 }
 
 }
 
 .pinterest-color-bg {
-    background-color: $pinterest;
-    color: $white-color;
+    background-color:  pinterest;
+    color:  white-color;
     &:hover
 
 {
-    background-color: $primary-color;
-    color: $white-color;
+    background-color:  primary-color;
+    color:  white-color;
 }
 
 }
 
 .youtube-color-bg {
-    background-color: $youtube;
-    color: $white-color;
+    background-color:  youtube;
+    color:  white-color;
     &:hover
 
 {
-    background-color: $primary-color;
-    color: $white-color;
+    background-color:  primary-color;
+    color:  white-color;
 }
 
 }
 
 .vimeo-color-bg {
-    background-color: $vimeo;
-    color: $white-color;
+    background-color:  vimeo;
+    color:  white-color;
     &:hover
 
 {
-    background-color: $primary-color;
-    color: $white-color;
+    background-color:  primary-color;
+    color:  white-color;
 }
 
 }
@@ -142,11 +142,11 @@
 }
 
 .black-dark-bg {
-    background: $black-color;
+    background:  black-color;
 }
 
 .gray-bg {
-    background: $bg-color;
+    background:  bg-color;
 }
 
 .red {

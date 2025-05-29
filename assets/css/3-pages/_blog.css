@@ -11,7 +11,7 @@
 }
 
 .blog-content {
-    background: $white-color;
+    background:  white-color;
     padding: 25px 30px 40px 30px;
 
     @include breakpoint(max-md_device) {
@@ -70,11 +70,11 @@ a {
     &:hover
 
 {
-    color: $primary-color;
+    color:  primary-color;
 }
 
 &:before {
-    background-color: $primary-color;
+    background-color:  primary-color;
     content: "";
     height: 1px;
     position: absolute;
@@ -117,16 +117,15 @@ a {
 }
 
 &:hover {
-    color: $primary-color;
+    color:  primary-color;
 }
 
 }
 }
 }
 
-// Blog List Scss
 .blog-list-vertical {
-    background: $bg-color-3;
+    background:  bg-color-3;
     min-height: 113px;
     padding: 35px 0 35px 166px;
     position: relative;
@@ -142,12 +141,12 @@ a {
     &:hover
 
 {
-    background: $primary-color;
+    background:  primary-color;
     color: #fff;
 }
 
 .post-date {
-    background: $primary-color;
+    background:  primary-color;
     color: #fff;
     display: flex;
     font-size: 11px;
@@ -167,7 +166,7 @@ a {
         position: relative;
         background: transparent;
         text-align: left;
-        color: $black-color;
+        color:  black-color;
         padding: 0;
         display: block;
         margin-bottom: 5px;
@@ -182,7 +181,7 @@ a {
     &:hover
 
 {
-    color: $white-color;
+    color:  white-color;
 }
 
 }
@@ -239,14 +238,14 @@ a {
     .blockquote
 
 {
-    background-color: $bg-color-3;
-    color: $default-color;
+    background-color:  bg-color-3;
+    color:  default-color;
     font-size: 16px;
     padding: 40px 40px;
     margin-left: 60px;
     position: relative;
     font-style: italic;
-    border-left: 4px solid $primary-color;
+    border-left: 4px solid  primary-color;
 
     @include breakpoint(max-sm_device) {
         margin-left: 30px;
@@ -284,7 +283,7 @@ h6 {
 .social-share {
     display: flex;
     justify-content: center;
-    border-top: 1px solid $border-color;
+    border-top: 1px solid  border-color;
     margin-top: 10px;
     padding-top: 10px;
     a
@@ -362,7 +361,7 @@ span {
     &:focus
 
 {
-    border: 1px solid $primary-color;
+    border: 1px solid  primary-color;
 }
 
 }

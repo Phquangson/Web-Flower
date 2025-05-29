@@ -18,10 +18,10 @@
 
 {
     font-size: 42px;
-    font-family: $body-font-family-name;
+    font-family:  body-font-family-name;
     font-weight: 700;
     line-height: 1.2;
-    color: $black-color;
+    color:  black-color;
     margin-bottom: 20px;
 }
 
@@ -54,7 +54,7 @@
     font-size: 12px;
     transition: .3s;
     margin-right: 10px;
-    color: $primary-color;
+    color:  primary-color;
 }
 
 }
@@ -95,7 +95,7 @@
     visibility: hidden;
     text-align: center;
     padding: 6px 0;
-    background-color: $primary-color;
+    background-color:  primary-color;
     transition: .3s;
     & a
 

@@ -5,7 +5,7 @@
     display: inline-block;
     font-size: 15px;
     font-weight: 500;
-    font-family: $body-font-family-name;
+    font-family: body-font-family-name;
     height: 45px;
     letter-spacing: 0.025em;
     line-height: 45px;
@@ -36,20 +36,20 @@
     &.primary-btn
 
 {
-    background-color: $primary-color;
-    color: $white-color;
+    background-color:primary-color;
+    color: white-color;
     &:hover
 
 {
-    background-color: $black-color;
+    background-color: black-color;
 }
 
 }
 
 &.secondary-btn {
     position: relative;
-    background: $black-color;
-    color: $white-color;
+    background:  black-color;
+    color:  white-color;
     z-index: 1;
     &:after
 
@@ -61,7 +61,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: $primary-color;
+    background:  primary-color;
     transition: all 0.3s;
 }
 
@@ -76,28 +76,28 @@
 
 &.theme-color {
     position: relative;
-    background: $primary-color;
-    color: $white-color;
+    background:  primary-color;
+    color:  white-color;
     z-index: 1;
     &:after
 
 {
-    background: $black-color;
+    background:  black-color;
 }
 
 }
 
 &.secondary-border {
-    border: 2px solid $black-color;
+    border: 2px solid  black-color;
     background: transparent;
-    color: $black-color;
+    color:  black-color;
     line-height: 42px;
     &:hover
 
 {
-    background: $primary-color;
-    color: $white-color;
-    border-color: $primary-color;
+    background:  primary-color;
+    color:  white-color;
+    border-color:  primary-color;
 }
 
 @include breakpoint(max-xs_device) {
@@ -105,7 +105,7 @@
 }
 
 @include breakpoint(max-xxs_device) {
-    border: 1px solid $black-color;
+    border: 1px solid  black-color;
 }
 
 }
@@ -117,24 +117,24 @@
     &:hover
 
 {
-    background-color: $primary-color;
-    border-color: $primary-color;
-    color: $white-color;
+    background-color:  primary-color;
+    border-color:  primary-color;
+    color:  white-color;
     transition: .3s;
 }
 
 }
 
 &.black-btn {
-    background-color: $black-color;
-    border-color: $black-color;
-    color: $white-color;
+    background-color:  black-color;
+    border-color:  black-color;
+    color:  white-color;
     &:hover
 
 {
-    background-color: $primary-color;
-    border-color: $primary-color;
-    color: $white-color;
+    background-color:  primary-color;
+    border-color:  primary-color;
+    color:  white-color;
     transition: .3s;
 }
 
@@ -150,8 +150,8 @@
     &.dark-btn
 
 {
-    background: $black-color;
-    color: $white-color;
+    background:  black-color;
+    color:  white-color;
     border-radius: 0%;
 }
 
@@ -169,8 +169,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: $primary-color;
-    color: $white-color;
+    background:  primary-color;
+    color:  white-color;
     z-index: 1;
 }
 
