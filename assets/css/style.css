@@ -5401,9 +5401,9 @@
 /*----------------------------------------*/
 /* Components - Breadcrumb 
 /*----------------------------------------*/
- .breadcrumbs-area {
-	 padding: 100px 0;
-	 background: #f6f6f6 url(../images/bg/breadcrumb.jpg) no-repeat scroll center center/cover;
+.breadcrumbs-area {
+	padding: 100px 0;
+	background: #f6f6f6 url(/assets/images/bg/breadcrumb.jpg) no-repeat scroll center center/cover;
 }
  .breadcrumbs-area:before {
 	 background: #fff none repeat scroll 0 0;

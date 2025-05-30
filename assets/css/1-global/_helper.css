@@ -340,14 +340,15 @@
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-	background:  white-color;
+	background: #f1f1f1;
 	width: 15px;
 	height: 15px;
 	top: -7px;
 	cursor: pointer;
 	border-radius: 50%;
-	border: 2px solid  primary-color;
-	&:focus
+	border: 2px solid #e72463;
+}
+
 
 {
 	outline: none;

@@ -28,7 +28,7 @@
                             Lorem ipsum dolor sit amet, pri autem nemore bonorum te. Autem fierent
                             ullamcorper ius no, nec ea quodsi invenire.
                         </p>
-                        <a href="product-details.html"
+                        <a href="@Url.Action("ProductDetails","ProductDetails")"
                            class="btn flosun-button secondary-btn theme-color  rounded-0">Shop Now</a>
                     </div>
                     <!-- Intro Content End -->
@@ -42,7 +42,7 @@
                             Lorem ipsum dolor sit amet, pri autem nemore bonorum te. Autem fierent
                             ullamcorper ius no, nec ea quodsi invenire.
                         </p>
-                        <a href="product-details.html" class="btn flosun-button secondary-btn rounded-0">Shop Now</a>
+                        <a href="@Url.Action("ProductDetails","ProductDetails")" class="btn flosun-button secondary-btn rounded-0">Shop Now</a>
                     </div>
                     <!-- Intro Content End -->
                 </div>
@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="cat-1 col-md-4 col-sm-12 col-custom">
                     <div class="categories-img mb-30">
-                        <a href="#"><img src="/assets/images/category/home1-category-1.jpg" alt=""></a>
+                        <a href="@Url.Action("Index","Home")"><img src="/assets/images/category/home1-category-1.jpg" alt=""></a>
                         <div class="categories-content">
                             <h3>Potted Plant</h3>
                             <h4>18 items</h4>
@@ -76,7 +76,7 @@
                     <div class="row">
                         <div class="cat-3 col-md-7 col-custom">
                             <div class="categories-img mb-30">
-                                <a href="#"><img src="/assets/images/category/home1-category-2.jpg" alt=""></a>
+                                <a href="@Url.Action("Index","Home")"><img src="/assets/images/category/home1-category-2.jpg" alt=""></a>
                                 <div class="categories-content">
                                     <h3>Potted Plant</h3>
                                     <h4>18 items</h4>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="cat-4 col-md-5 col-custom">
                             <div class="categories-img mb-30">
-                                <a href="#"><img src="/assets/images/category/home1-category-3.jpg" alt=""></a>
+                                <a href="@Url.Action("Index","Home")"><img src="/assets/images/category/home1-category-3.jpg" alt=""></a>
                                 <div class="categories-content">
                                     <h3>Potted Plant</h3>
                                     <h4>18 items</h4>
@@ -94,7 +94,7 @@
                         </div>
                         <div class="cat-5 col-md-4 col-custom">
                             <div class="categories-img mb-30">
-                                <a href="#"><img src="/assets/images/category/home1-category-4.jpg" alt=""></a>
+                                <a href="@Url.Action("Index","Home")"><img src="/assets/images/category/home1-category-4.jpg" alt=""></a>
                                 <div class="categories-content">
                                     <h3>Potted Plant</h3>
                                     <h4>18 items</h4>
@@ -103,7 +103,7 @@
                         </div>
                         <div class="cat-6 col-md-8 col-custom">
                             <div class="categories-img mb-30">
-                                <a href="#"><img src="/assets/images/category/home1-category-5.jpg" alt=""></a>
+                                <a href="@Url.Action("Index","Home")"><img src="/assets/images/category/home1-category-5.jpg" alt=""></a>
                                 <div class="categories-content">
                                     <h3>Potted Plant</h3>
                                     <h4>18 items</h4>
@@ -137,7 +137,7 @@
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/1.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/2.jpg" alt=""
@@ -145,14 +145,14 @@
                                         </a>
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -160,7 +160,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">
                                                     Flowers daisy pink
                                                     stick
                                                 </a>
@@ -177,28 +177,28 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/3.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/4.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -206,7 +206,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">
                                                     Jasmine flowers
                                                     white
                                                 </a>
@@ -223,7 +223,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
@@ -232,21 +232,21 @@
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/5.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/6.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("wishlist","wishlist")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -254,7 +254,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">
                                                     Blossom bouquet
                                                     flower
                                                 </a>
@@ -271,28 +271,28 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/2.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/1.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -300,7 +300,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">
                                                     Orchid flower red
                                                     stick
                                                 </a>
@@ -317,7 +317,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
@@ -326,21 +326,21 @@
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/7.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/8.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -348,7 +348,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">Rose bouquet white</a>
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">Rose bouquet white</a>
                                             </h4>
                                         </div>
                                         <div class="product-rating">
@@ -362,28 +362,28 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/9.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/2.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -391,7 +391,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">Hyacinth white stick</a>
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">Hyacinth white stick</a>
                                             </h4>
                                         </div>
                                         <div class="product-rating">
@@ -405,7 +405,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
@@ -414,21 +414,21 @@
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/3.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/4.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -436,7 +436,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">Glory of the Snow</a>
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">Glory of the Snow</a>
                                             </h4>
                                         </div>
                                         <div class="product-rating">
@@ -450,28 +450,28 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/6.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/5.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -479,7 +479,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">Jack in the Pulpit</a>
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">Jack in the Pulpit</a>
                                             </h4>
                                         </div>
                                         <div class="product-rating">
@@ -493,7 +493,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
@@ -502,21 +502,21 @@
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/8.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/7.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -524,7 +524,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">Pearly Everlasting</a>
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">Pearly Everlasting</a>
                                             </h4>
                                         </div>
                                         <div class="product-rating">
@@ -538,28 +538,28 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/9.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/8.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -567,7 +567,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">
                                                     Flowers daisy pink
                                                     stick
                                                 </a>
@@ -584,7 +584,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
@@ -593,28 +593,28 @@
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/2.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/1.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
                                     <div class="product-content">
                                         <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Flowers white</a></h4>
+                                            <h4 class="title-2"> <a href="@Url.Action("ProductDetails","ProductDetails")">Flowers white</a></h4>
                                         </div>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
@@ -627,28 +627,28 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/9.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/3.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -656,7 +656,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">Flower red stick</a>
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">Flower red stick</a>
                                             </h4>
                                         </div>
                                         <div class="product-rating">
@@ -670,7 +670,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
@@ -726,7 +726,7 @@
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/1.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/2.jpg" alt=""
@@ -734,21 +734,21 @@
                                         </a>
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                             </a>
                                         </div>
                                     </div>
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">Flowers pink stick</a>
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">Flowers pink stick</a>
                                             </h4>
                                         </div>
                                         <div class="product-rating">
@@ -762,7 +762,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
@@ -771,28 +771,28 @@
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/5.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/6.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
                                     <div class="product-content">
                                         <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Flowers white</a></h4>
+                                            <h4 class="title-2"> <a href="@Url.Action("ProductDetails","ProductDetails")">Flowers white</a></h4>
                                         </div>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
@@ -805,7 +805,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
@@ -814,27 +814,27 @@
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/7.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/8.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                             </a>
                                         </div>
                                     </div>
                                     <div class="product-content">
                                         <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Blossom flower</a></h4>
+                                            <h4 class="title-2"> <a href="@Url.Action("ProductDetails","ProductDetails")">Blossom flower</a></h4>
                                         </div>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
@@ -847,7 +847,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
@@ -856,21 +856,21 @@
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/3.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/4.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -878,7 +878,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">Flower red stick</a>
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">Flower red stick</a>
                                             </h4>
                                         </div>
                                         <div class="product-rating">
@@ -892,7 +892,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
@@ -901,21 +901,21 @@
                                 <!--Single Product Start-->
                                 <div class="single-product position-relative mb-30">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
+                                        <a class="d-block" href="@Url.Action("ProductDetails","ProductDetails")">
                                             <img src="/assets/images/product/8.jpg" alt=""
                                                  class="product-image-1 w-100">
                                             <img src="/assets/images/product/7.jpg" alt=""
                                                  class="product-image-2 position-absolute w-100">
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
-                                            <a href="compare.html" title="Compare">
+                                            <a href="@Url.Action("Compare","Compare")" title="Compare">
                                                 <i class="fa-solid fa-repeat"></i>
                                             </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                            <a href="@Url.Action("Compare","Compare")" title="Add To Wishlist">
                                                 <i class="fa-solid fa-heart"></i>
                                             </a>
-                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal"
-                                               data-bs-target="#exampleModalCenter">
+                                            <a href="@Url.Action("Index","Home")exampleModalCenter" title="Quick View" data-bs-toggle="modal"
+                                               data-bs-target="@Url.Action("Index","Home")exampleModalCenter">
                                                 <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
@@ -923,7 +923,7 @@
                                     <div class="product-content">
                                         <div class="product-title">
                                             <h4 class="title-2">
-                                                <a href="product-details.html">Rose bouquet white</a>
+                                                <a href="@Url.Action("ProductDetails","ProductDetails")">Rose bouquet white</a>
                                             </h4>
                                         </div>
                                         <div class="product-rating">
@@ -937,7 +937,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("Cart","Cart")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                 </div>
                                 <!--Single Product End-->
@@ -983,7 +983,7 @@
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style mb-30">
                         <div class="banner-img">
-                            <a href="#">
+                            <a href="@Url.Action("Index","Home")">
                                 <img src="/assets/images/banner/1-1.jpg" alt="">
                                 <div class="overlay-1"></div>
                             </a>
@@ -995,7 +995,7 @@
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style mb-30">
                         <div class="banner-img">
-                            <a href="#">
+                            <a href="@Url.Action("Index","Home")">
                                 <img src="/assets/images/banner/1-2.jpg" alt="">
                                 <div class="overlay-1"></div>
                             </a>
@@ -1007,7 +1007,7 @@
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style mb-30">
                         <div class="banner-img">
-                            <a href="#">
+                            <a href="@Url.Action("Index","Home")">
                                 <img src="/assets/images/banner/1-3.jpg" alt="">
                                 <div class="overlay-1"></div>
                             </a>
@@ -1127,19 +1127,19 @@
                     <div class="blog-lst">
                         <div class="single-blog">
                             <div class="blog-image">
-                                <a class="d-block" href="blog-details-fullwidth.html">
+                                <a class="d-block" href="@Url.Action("Cart","Cart")">
                                     <img src="/assets/images/blog/blog1.jpg" alt="Blog Image" class="w-100">
                                 </a>
                             </div>
                             <div class="blog-content">
                                 <div class="blog-text">
-                                    <h4><a href="blog-details-fullwidth.html">Standard blog post One</a></h4>
+                                    <h4><a href="@Url.Action("BlogDetailsFullwidth","BlogDetailsFullwidth")">Standard blog post One</a></h4>
                                     <div class="blog-post-info">
-                                        <span><a href="#">By admin</a></span>
+                                        <span><a href="@Url.Action("Index","Home")">By admin</a></span>
                                         <span>December 18, 2022</span>
                                     </div>
                                     <p>Lorem ipsu dolor sit amet cons elits cumque adipisicing, sed do incid eiusmod tempor ut labore et dolore eveniet .</p>
-                                    <a href="blog-details-fullwidth.html" class="readmore">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="@Url.Action("BlogDetailsFullwidth","BlogDetailsFullwidth")" class="readmore">Read More <i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1149,19 +1149,19 @@
                     <div class="blog-lst">
                         <div class="single-blog">
                             <div class="blog-image">
-                                <a class="d-block" href="blog-details-fullwidth.html">
+                                <a class="d-block" href="@Url.Action("BlogDetailsFullwidth","BlogDetailsFullwidth")">
                                     <img src="/assets/images/blog/blog3.jpg" alt="Blog Image" class="w-100">
                                 </a>
                             </div>
                             <div class="blog-content">
                                 <div class="blog-text">
-                                    <h4><a href="blog-details-fullwidth.html">New Collection Two</a></h4>
+                                    <h4><a href="@Url.Action("BlogDetailsFullwidth","BlogDetailsFullwidth")">New Collection Two</a></h4>
                                     <div class="blog-post-info">
-                                        <span><a href="#">By admin</a></span>
+                                        <span><a href="@Url.Action("Index","Home")">By admin</a></span>
                                         <span>December 18, 2022</span>
                                     </div>
                                     <p>Lorem ipsu dolor sit amet cons elits cumque adipisicing, sed do incid eiusmod tempor ut labore et dolore eveniet .</p>
-                                    <a href="blog-details-fullwidth.html" class="readmore">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="@Url.Action("BlogDetailsFullwidth","BlogDetailsFullwidth")" class="readmore">Read More <i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1171,19 +1171,19 @@
                     <div class="blog-lst">
                         <div class="single-blog">
                             <div class="blog-image">
-                                <a class="d-block" href="blog-details-fullwidth.html">
+                                <a class="d-block" href="@Url.Action("BlogDetailsFullwidth","BlogDetailsFullwidth")">
                                     <img src="/assets/images/blog/blog2.jpg" alt="Blog Image" class="w-100">
                                 </a>
                             </div>
                             <div class="blog-content">
                                 <div class="blog-text">
-                                    <h4><a href="blog-details-fullwidth.html">Standard blog post three</a></h4>
+                                    <h4><a href="@Url.Action("BlogDetailsFullwidth","BlogDetailsFullwidth")">Standard blog post three</a></h4>
                                     <div class="blog-post-info">
-                                        <span><a href="#">By admin</a></span>
+                                        <span><a href="@Url.Action("Index","Home")">By admin</a></span>
                                         <span>December 18, 2022</span>
                                     </div>
                                     <p>Lorem ipsu dolor sit amet cons elits cumque adipisicing, sed do incid eiusmod tempor ut labore et dolore eveniet .</p>
-                                    <a href="blog-details-fullwidth.html" class="readmore">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                    <a href="@Url.Action("BlogDetailsFullwidth","BlogDetailsFullwidth")" class="readmore">Read More <i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1201,27 +1201,27 @@
                     <div class="brand-logo-carousel swiper-container intro11-carousel-wrap arrow-style-3">
                         <div class="swiper-wrapper">
                             <div class="single-brand swiper-slide">
-                                <a href="#">
+                                <a href="@Url.Action("Index","Home")">
                                     <img src="/assets/images/brand/1.png" alt="Brand Logo">
                                 </a>
                             </div>
                             <div class="single-brand swiper-slide">
-                                <a href="#">
+                                <a href="@Url.Action("Index","Home")">
                                     <img src="/assets/images/brand/2.png" alt="Brand Logo">
                                 </a>
                             </div>
                             <div class="single-brand swiper-slide">
-                                <a href="#">
+                                <a href="@Url.Action("Index","Home")">
                                     <img src="/assets/images/brand/3.png" alt="Brand Logo">
                                 </a>
                             </div>
                             <div class="single-brand swiper-slide">
-                                <a href="#">
+                                <a href="@Url.Action("Index","Home")">
                                     <img src="/assets/images/brand/4.png" alt="Brand Logo">
                                 </a>
                             </div>
                             <div class="single-brand swiper-slide">
-                                <a href="#">
+                                <a href="@Url.Action("Index","Home")">
                                     <img src="/assets/images/brand/5.png" alt="Brand Logo">
                                 </a>
                             </div>
