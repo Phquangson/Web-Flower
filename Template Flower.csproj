@@ -276,6 +276,7 @@
     <Content Include="Views\Shop\Page404.cshtml" />
     <Content Include="Views\Shop\ComparePage.cshtml" />
     <Content Include="Views\Shop\CartPage.cshtml" />
+    <Content Include="Views\Shop\CheckoutPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

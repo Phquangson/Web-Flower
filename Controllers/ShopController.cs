@@ -30,6 +30,10 @@ namespace Template_Flower.Controllers
         {
             return View();
         }
+        public ActionResult CheckoutPage()
+        {
+            return View();
+        }
 
     }
 }
