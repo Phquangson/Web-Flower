@@ -6,11 +6,11 @@
 }
 
 .facebook-color {
-    color:  facebook;
+    color: blue;
     &:hover
 
 {
-    color:  primary-color;
+    color: $primary-color;
 }
 
 }
