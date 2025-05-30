@@ -18,5 +18,18 @@ namespace Template_Flower.Controllers
         {
             return View();
         }
+        public ActionResult Page404()
+        {
+            return View();
+        }
+        public ActionResult ComparePage()
+        {
+            return View();
+        }
+        public ActionResult CartPage()
+        {
+            return View();
+        }
+
     }
 }
