@@ -1,13 +1,13 @@
-﻿<!--Footer Area Start-->
-<footer class="footer-area" style=" margin-top: 100px">
+﻿    <!--Footer Area Start-->
+<footer class="footer-area" style="margin-top: 100px">
     <div class="footer-widget-area">
         <div class="container container-default custom-area">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-custom">
                     <div class="single-footer-widget m-0">
                         <div class="footer-logo">
-                            <a href="index.html">
-                                <img src="/assets/images/logo/logo-footer.png" alt="Logo Image">
+                            <a href="@Url.Action("Index","Home")">
+                                <img src="~/assets/images/logo/logo-footer.png" alt="Logo Image">
                             </a>
                         </div>
                         <p class="desc-content">Lorem Khaled Ipsum is a major key to success. To be successful you’ve got to work hard you’ve got to make it.</p>
@@ -46,11 +46,11 @@
                     <div class="single-footer-widget">
                         <h2 class="widget-title">Information</h2>
                         <ul class="widget-list">
-                            <li><a href="about-us.html">Our Company</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                            <li><a href="about-us.html">Our Services</a></li>
-                            <li><a href="about-us.html">Why We?</a></li>
-                            <li><a href="about-us.html">Careers</a></li>
+                            <li><a href="@Url.Action("AboutUs","AboutUs")">Our Company</a></li>
+                            <li><a href="@Url.Action("ContactUs","ContactUs")">Contact Us</a></li>
+                            <li><a href="@Url.Action("AboutUs","AboutUs")">Our Services</a></li>
+                            <li><a href="@Url.Action("AboutUs","AboutUs")">Why We?</a></li>
+                            <li><a href="@Url.Action("AboutUs","AboutUs")">Careers</a></li>
                         </ul>
                     </div>
                 </div>
@@ -58,11 +58,11 @@
                     <div class="single-footer-widget">
                         <h2 class="widget-title">Quicklink</h2>
                         <ul class="widget-list">
-                            <li><a href="about-us.html">About</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="shop.html">Shop</a></li>
-                            <li><a href="cart.html">Cart</a></li>
-                            <li><a href="contact-us.html">Contact</a></li>
+                            <li><a href="@Url.Action("AboutUs","AboutUs")">About</a></li>
+                            <li><a href="@Url.Action("Blog","Blog")">Blog</a></li>
+                            <li><a href="@Url.Action("Shop","Shop")">Shop</a></li>
+                            <li><a href="@Url.Action("CartPage","Shop")">Cart</a></li>
+                            <li><a href="@Url.Action("ContactUs","ContactUs")">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -70,11 +70,11 @@
                     <div class="single-footer-widget">
                         <h2 class="widget-title">Support</h2>
                         <ul class="widget-list">
-                            <li><a href="contact-us.html">Online Support</a></li>
-                            <li><a href="contact-us.html">Shipping Policy</a></li>
-                            <li><a href="contact-us.html">Return Policy</a></li>
-                            <li><a href="contact-us.html">Privacy Policy</a></li>
-                            <li><a href="contact-us.html">Terms of Service</a></li>
+                            <li><a href="@Url.Action("ContactUs","ContactUs")">Online Support</a></li>
+                            <li><a href="@Url.Action("ContactUs","ContactUs")">Shipping Policy</a></li>
+                            <li><a href="@Url.Action("ContactUs","ContactUs")">Return Policy</a></li>
+                            <li><a href="@Url.Action("ContactUs","ContactUs")">Privacy Policy</a></li>
+                            <li><a href="@Url.Action("ContactUs","ContactUs")">Terms of Service</a></li>
                         </ul>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                         <div class="col-md-6 col-custom">
                             <div class="modal-product-img">
                                 <a class="w-100" href="#">
-                                    <img class="w-100" src="/assets/images/product/large-size/1.jpg" alt="Product">
+                                    <img class="w-100" src="~/assets/images/product/large-size/1.jpg" alt="Product">
                                 </a>
                             </div>
                         </div>
@@ -160,8 +160,8 @@
                                             </div>
                                         </div>
                                         <div class="add-to_btn">
-                                            <a class="btn product-cart button-icon flosun-button dark-btn" href="cart.html">Add to cart</a>
-                                            <a class="btn flosun-button secondary-btn rounded-0" href="wishlist.html">Add to wishlist</a>
+                                            <a class="btn product-cart button-icon flosun-button dark-btn" href="@Url.Action("CartPage","Shop")">Add to cart</a>
+                                            <a class="btn flosun-button secondary-btn rounded-0" href="@Url.Action("Wishlist","Shop")">Add to wishlist</a>
                                         </div>
                                     </div>
                                 </div>

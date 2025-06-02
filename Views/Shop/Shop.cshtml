@@ -59,7 +59,6 @@
     <link href="~/assets/css/plugins/nice-select.min.css" rel="stylesheet" />
 
 
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
           integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -96,24 +95,24 @@
                                             <ul>
                                                 <li><span class="mega-menu-text">Shop</span></li>
                                                 <li><a class="active" href="@Url.Action("Shop","Shop")">Shop Left Sidebar</a></li>
-                                                <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                                <li><a href="shop-list-left.html">Shop List Left Sidebar</a></li>
-                                                <li><a href="shop-list-right.html">Shop List Right Sidebar</a></li>
-                                                <li><a href="shop-fullwidth.html">Shop Full Width</a></li>
+                                                <li><a href="@Url.Action("Shop","Shop")">Shop Right Sidebar</a></li>
+                                                <li><a href="@Url.Action("Shop","Shop")">Shop List Left Sidebar</a></li>
+                                                <li><a href="@Url.Action("Shop","Shop")">Shop List Right Sidebar</a></li>
+                                                <li><a href="@Url.Action("Shop","Shop")">Shop Full Width</a></li>
                                             </ul>
                                         </div>
                                         <div class="menu-colum">
                                             <ul>
                                                 <li><span class="mega-menu-text">Product</span></li>
                                                 <li><a href="@Url.Action("Product","Shop")">Single Product</a></li>
-                                                <li><a href="variable-product-details.html">Variable Product</a></li>
-                                                <li><a href="external-product-details.html">External Product</a></li>
-                                                <li><a href="gallery-product-details.html">Gallery Product</a></li>
-                                                <li><a href="countdown-product-details.html">Countdown Product</a></li>
+                                                <li><a href="@Url.Action("Product","Shop")">Variable Product</a></li>
+                                                <li><a href="@Url.Action("Product","Shop")">External Product</a></li>
+                                                <li><a href="@Url.Action("Product","Shop")">Gallery Product</a></li>
+                                                <li><a href="@Url.Action("Product","Shop")">Countdown Product</a></li>
                                             </ul>
                                         </div>
                                         <div class="menu-colum">
-                                            <ul>>
+                                            <ul>
                                                 <li><span class="mega-menu-text">Others</span></li>
                                                 <li><a href="@Url.Action("Page404","Shop")">Error 404</a></li>
                                                 <li><a href="@Url.Action("ComparePage","Shop")">Compare Page</a></li>
@@ -125,19 +124,19 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="blog-details-fullwidth.html">
+                                    <a href="@Url.Action("Blog","Blog")">
                                         <span class="menu-text"> Blog</span>
                                         <i class="fa fa-angle-down"></i>
                                     </a>
                                     <ul class="dropdown-submenu dropdown-hover">
-                                        <li><a href="blog.html">Blog Left Sidebar</a></li>
-                                        <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                                        <li><a href="blog-list-fullwidth.html">Blog List Fullwidth</a></li>
-                                        <li><a href="blog-grid.html">Blog Grid Page</a></li>
-                                        <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
-                                        <li><a href="blog-grid-fullwidth.html">Blog Grid Fullwidth</a></li>
-                                        <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
-                                        <li><a href="blog-details-fullwidth.html">Blog Details Fullwidth</a></li>
+                                        <li><a href="@Url.Action("Blog","Blog")">Blog Left Sidebar</a></li>
+                                        <li><a href="@Url.Action("Blog","Blog")">Blog List Right Sidebar</a></li>
+                                        <li><a href="@Url.Action("Blog","Blog")">Blog List Fullwidth</a></li>
+                                        <li><a href="@Url.Action("Blog","Blog")">Blog Grid Page</a></li>
+                                        <li><a href="@Url.Action("Blog","Blog")">Blog Grid Right Sidebar</a></li>
+                                        <li><a href="@Url.Action("Blog","Blog")">Blog Grid Fullwidth</a></li>
+                                        <li><a href="@Url.Action("BlogDetails","Blog")">Blog Details Sidebar</a></li>
+                                        <li><a href="@Url.Action("BlogDetails","Blog")">Blog Details Fullwidth</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -146,20 +145,20 @@
                                         <i class="fa fa-angle-down"></i>
                                     </a>
                                     <ul class="dropdown-submenu dropdown-hover">
-                                        <li><a href="contact-us.html">Contact</a></li>
-                                        <li><a href="my-account.html">My Account</a></li>
-                                        <li><a href="frequently-questions.html">FAQ</a></li>
-                                        <li><a href="login.html">Login</a></li>
-                                        <li><a href="register.html">Register</a></li>
+                                        <li><a href="@Url.Action("ContactUs","ContactUs")">Contact</a></li>
+                                        <li><a href="@Url.Action("MyAccount","Pages")">My Account</a></li>
+                                        <li><a href="@Url.Action("FAQ","Pages")">FAQ</a></li>
+                                        <li><a href="@Url.Action("Login","Pages")">Login</a></li>
+                                        <li><a href="@Url.Action("Register","Pages")">Register</a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="about-us.html">
+                                    <a href="@Url.Action("AboutUs","AboutUs")">
                                         <span class="menu-text"> About Us</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="contact-us.html">
+                                    <a href="@Url.Action("ContactUs","ContactUs")">
                                         <span class="menu-text">Contact Us</span>
                                     </a>
                                 </li>
@@ -177,10 +176,10 @@
                                     <div class="cart-item-wrapper dropdown-sidemenu dropdown-hover-2">
                                         <div class="single-cart-item">
                                             <div class="cart-img">
-                                                <a href="cart.html"><img src="~/assets/images/cart/1.jpg" alt=""></a>
+                                                <a href="@Url.Action("CartPage","Shop")"><img src="~/assets/images/cart/1.jpg" alt=""></a>
                                             </div>
                                             <div class="cart-text">
-                                                <h5 class="title"><a href="cart.html">Odio tortor consequat</a></h5>
+                                                <h5 class="title"><a href="@Url.Action("CartPage","Shop")">Odio tortor consequat</a></h5>
                                                 <div class="cart-text-btn">
                                                     <div class="cart-qty">
                                                         <span>1×</span>
@@ -192,10 +191,10 @@
                                         </div>
                                         <div class="single-cart-item">
                                             <div class="cart-img">
-                                                <a href="cart.html"><img src="~/assets/images/cart/2.jpg" alt=""></a>
+                                                <a href="@Url.Action("CartPage","Shop")"><img src="~/assets/images/cart/2.jpg" alt=""></a>
                                             </div>
                                             <div class="cart-text">
-                                                <h5 class="title"><a href="cart.html">Integer eget augue</a></h5>
+                                                <h5 class="title"><a href="@Url.Action("CartPage","Shop")">Integer eget augue</a></h5>
                                                 <div class="cart-text-btn">
                                                     <div class="cart-qty">
                                                         <span>1×</span>
@@ -207,10 +206,10 @@
                                         </div>
                                         <div class="single-cart-item">
                                             <div class="cart-img">
-                                                <a href="cart.html"><img src="~/assets/images/cart/3.jpg" alt=""></a>
+                                                <a href="@Url.Action("CartPage","Shop")"><img src="~/assets/images/cart/3.jpg" alt=""></a>
                                             </div>
                                             <div class="cart-text">
-                                                <h5 class="title"><a href="cart.html">Eleifend quam</a></h5>
+                                                <h5 class="title"><a href="@Url.Action("CartPage","Shop")">Eleifend quam</a></h5>
                                                 <div class="cart-text-btn">
                                                     <div class="cart-qty">
                                                         <span>1×</span>
@@ -225,7 +224,7 @@
                                             <h5>$166.00</h5>
                                         </div>
                                         <div class="cart-links d-flex justify-content-between">
-                                            <a class="btn product-cart button-icon flosun-button dark-btn" href="cart.html">View cart</a>
+                                            <a class="btn product-cart button-icon flosun-button dark-btn" href="@Url.Action("CartPage","Shop")">View cart</a>
                                             <a class="btn flosun-button secondary-btn rounded-0" href="@Url.Action("CheckoutPage","Shop")">Checkout</a>
                                         </div>
                                     </div>
@@ -314,7 +313,7 @@
                                             <ul class="dropdown" style="display: none;">
                                                 <li><a href="error404.html">Error 404</a></li>
                                                 <li><a href="compare.html">Compare Page</a></li>
-                                                <li><a href="cart.html">Cart Page</a></li>
+                                                <li><a href="@Url.Action("CartPage","Shop")">Cart Page</a></li>
                                                 <li><a href="@Url.Action("CheckoutPage","Shop")">Checkout Page</a></li>
                                                 <li><a href="@Url.Action("Wishlist","Shop")">Wish List Page</a></li>
                                             </ul>
@@ -337,13 +336,13 @@
                                 <li class="menu-item-has-children ">
                                     <span class="menu-expand"><i></i></span><a href="#">Pages</a>
                                     <ul class="dropdown" style="display: none;">
-                                        <li><a href="frequently-questions.html">FAQ</a></li>
-                                        <li><a href="my-account.html">My Account</a></li>
-                                        <li><a href="login-register.html">login &amp; register</a></li>
+                                        <li><a href="@Url.Action("FAQ","Pages")">FAQ</a></li>
+                                        <li><a href="@Url.Action("MyAccount","Pages")">My Account</a></li>
+                                        <li><a href="@Url.Action("Register","Pages")">login &amp; register</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="contact-us.html">Contact</a></li>
+                                <li><a href="@Url.Action("AboutUs","AboutUs")">About Us</a></li>
+                                <li><a href="@Url.Action("ContactUs","ContactUs")">Contact</a></li>
                             </ul>
                         </nav>
                         <!-- mobile menu navigation end -->
@@ -414,7 +413,7 @@
                     <!-- offcanvas widget area start -->
                     <div class="offcanvas-widget-area">
                         <ul class="menu-top-menu">
-                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="@Url.Action("AboutUs","AboutUs")">About Us</a></li>
                         </ul>
                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <div class="switcher">
@@ -473,6 +472,8 @@
         <!-- off-canvas menu end -->
     </header>
 
+
+
     <!-- Breadcrumb Area Start Here -->
     <div class="breadcrumbs-area position-relative">
         <div class="container">
@@ -530,13 +531,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-<i class="fa-solid fa-repeat"></i>
+                                                <i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="@Url.Action("Wishlist","Shop")" title="Add To Wishlist">
-<i class="fa-regular fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-<i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -548,14 +549,14 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$60.00</span>
                                             <span class="old-price"><del>$70.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("CartPage","Shop")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                     <div class="product-content-listview">
                                         <div class="product-title">
@@ -565,8 +566,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$60.00</span>
@@ -574,7 +575,7 @@
                                         </div>
                                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         <div class="button-listview">
-                                            <a href="cart.html" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
+                                            <a href="@Url.Action("CartPage","Shop")" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
                                             <a class="list-icon" href="compare.html" title="Compare">
                                                 <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
                                             </a>
@@ -596,13 +597,13 @@
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-<i class="fa-solid fa-repeat"></i>
+                                                <i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="@Url.Action("Wishlist","Shop")" title="Add To Wishlist">
-<i class="fa-regular fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-<i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -614,14 +615,14 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("CartPage","Shop")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                     <div class="product-content-listview">
                                         <div class="product-title">
@@ -631,8 +632,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
@@ -640,7 +641,7 @@
                                         </div>
                                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         <div class="button-listview">
-                                            <a href="cart.html" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
+                                            <a href="@Url.Action("CartPage","Shop")" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
                                             <a class="list-icon" href="compare.html" title="Compare">
                                                 <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
                                             </a>
@@ -663,13 +664,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-<i class="fa-solid fa-repeat"></i>
+                                                <i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="@Url.Action("Wishlist","Shop")" title="Add To Wishlist">
-<i class="fa-regular fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-<i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -688,7 +689,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("CartPage","Shop")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                     <div class="product-content-listview">
                                         <div class="product-title">
@@ -698,8 +699,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
@@ -707,7 +708,7 @@
                                         </div>
                                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         <div class="button-listview">
-                                            <a href="cart.html" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
+                                            <a href="@Url.Action("CartPage","Shop")" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
                                             <a class="list-icon" href="compare.html" title="Compare">
                                                 <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
                                             </a>
@@ -747,14 +748,14 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("CartPage","Shop")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                     <div class="product-content-listview">
                                         <div class="product-title">
@@ -764,8 +765,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
@@ -773,7 +774,7 @@
                                         </div>
                                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         <div class="button-listview">
-                                            <a href="cart.html" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
+                                            <a href="@Url.Action("CartPage","Shop")" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
                                             <a class="list-icon" href="compare.html" title="Compare">
                                                 <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
                                             </a>
@@ -795,13 +796,13 @@
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-<i class="fa-solid fa-repeat"></i>
+                                                <i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="@Url.Action("Wishlist","Shop")" title="Add To Wishlist">
-<i class="fa-regular fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-<i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -813,14 +814,14 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("CartPage","Shop")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                     <div class="product-content-listview">
                                         <div class="product-title">
@@ -830,8 +831,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
@@ -839,7 +840,7 @@
                                         </div>
                                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         <div class="button-listview">
-                                            <a href="cart.html" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
+                                            <a href="@Url.Action("CartPage","Shop")" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
                                             <a class="list-icon" href="compare.html" title="Compare">
                                                 <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
                                             </a>
@@ -862,13 +863,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-<i class="fa-solid fa-repeat"></i>
+                                                <i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="@Url.Action("Wishlist","Shop")" title="Add To Wishlist">
-<i class="fa-regular fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-<i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -880,14 +881,14 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("CartPage","Shop")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                     <div class="product-content-listview">
                                         <div class="product-title">
@@ -897,8 +898,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
@@ -906,7 +907,7 @@
                                         </div>
                                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         <div class="button-listview">
-                                            <a href="cart.html" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
+                                            <a href="@Url.Action("CartPage","Shop")" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
                                             <a class="list-icon" href="compare.html" title="Compare">
                                                 <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
                                             </a>
@@ -929,13 +930,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-<i class="fa-solid fa-repeat"></i>
+                                                <i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="@Url.Action("Wishlist","Shop")" title="Add To Wishlist">
-<i class="fa-regular fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-<i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -947,14 +948,14 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$60.00</span>
                                             <span class="old-price"><del>$70.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("CartPage","Shop")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                     <div class="product-content-listview">
                                         <div class="product-title">
@@ -964,8 +965,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$60.00</span>
@@ -973,7 +974,7 @@
                                         </div>
                                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         <div class="button-listview">
-                                            <a href="cart.html" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
+                                            <a href="@Url.Action("CartPage","Shop")" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
                                             <a class="list-icon" href="compare.html" title="Compare">
                                                 <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
                                             </a>
@@ -996,13 +997,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-<i class="fa-solid fa-repeat"></i>
+                                                <i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="@Url.Action("Wishlist","Shop")" title="Add To Wishlist">
-<i class="fa-regular fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-<i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -1014,14 +1015,14 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("CartPage","Shop")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                     <div class="product-content-listview">
                                         <div class="product-title">
@@ -1031,8 +1032,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
@@ -1040,7 +1041,7 @@
                                         </div>
                                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         <div class="button-listview">
-                                            <a href="cart.html" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
+                                            <a href="@Url.Action("CartPage","Shop")" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
                                             <a class="list-icon" href="compare.html" title="Compare">
                                                 <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
                                             </a>
@@ -1063,13 +1064,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-<i class="fa-solid fa-repeat"></i>
+                                                <i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="@Url.Action("Wishlist","Shop")" title="Add To Wishlist">
-<i class="fa-regular fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-<i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -1088,7 +1089,7 @@
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("CartPage","Shop")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                     <div class="product-content-listview">
                                         <div class="product-title">
@@ -1098,8 +1099,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
@@ -1107,7 +1108,7 @@
                                         </div>
                                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         <div class="button-listview">
-                                            <a href="cart.html" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
+                                            <a href="@Url.Action("CartPage","Shop")" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
                                             <a class="list-icon" href="compare.html" title="Compare">
                                                 <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
                                             </a>
@@ -1129,13 +1130,13 @@
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-<i class="fa-solid fa-repeat"></i>
+                                                <i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="@Url.Action("Wishlist","Shop")" title="Add To Wishlist">
-<i class="fa-regular fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-<i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -1147,14 +1148,14 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("CartPage","Shop")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                     <div class="product-content-listview">
                                         <div class="product-title">
@@ -1164,8 +1165,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
@@ -1173,7 +1174,7 @@
                                         </div>
                                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         <div class="button-listview">
-                                            <a href="cart.html" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
+                                            <a href="@Url.Action("CartPage","Shop")" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
                                             <a class="list-icon" href="compare.html" title="Compare">
                                                 <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
                                             </a>
@@ -1195,13 +1196,13 @@
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-<i class="fa-solid fa-repeat"></i>
+                                                <i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="@Url.Action("Wishlist","Shop")" title="Add To Wishlist">
-<i class="fa-regular fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-<i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -1213,14 +1214,14 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("CartPage","Shop")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                     <div class="product-content-listview">
                                         <div class="product-title">
@@ -1230,8 +1231,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
@@ -1239,7 +1240,7 @@
                                         </div>
                                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         <div class="button-listview">
-                                            <a href="cart.html" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
+                                            <a href="@Url.Action("CartPage","Shop")" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
                                             <a class="list-icon" href="compare.html" title="Compare">
                                                 <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
                                             </a>
@@ -1262,13 +1263,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-<i class="fa-solid fa-repeat"></i>
+                                                <i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="@Url.Action("Wishlist","Shop")" title="Add To Wishlist">
-<i class="fa-regular fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-<i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -1280,14 +1281,14 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
                                             <span class="old-price"><del>$90.00</del></span>
                                         </div>
-                                        <a href="cart.html" class="btn product-cart">Add to Cart</a>
+                                        <a href="@Url.Action("CartPage","Shop")" class="btn product-cart">Add to Cart</a>
                                     </div>
                                     <div class="product-content-listview">
                                         <div class="product-title">
@@ -1297,8 +1298,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$80.00</span>
@@ -1306,7 +1307,7 @@
                                         </div>
                                         <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         <div class="button-listview">
-                                            <a href="cart.html" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
+                                            <a href="@Url.Action("CartPage","Shop")" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Add to Cart</span> </a>
                                             <a class="list-icon" href="compare.html" title="Compare">
                                                 <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
                                             </a>
@@ -1490,8 +1491,8 @@
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -1512,7 +1513,7 @@
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa-regular fa-star"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -1533,7 +1534,7 @@
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star-half-o"></i>
                                                 <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa-regular fa-star"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -1548,7 +1549,7 @@
     </div>
     <!-- Shop Main Area End Here -->
     <!--Footer Area Start-->
-    <footer class="footer-area">
+    <footer class="footer-area" style=" margin-top: 100px ">
         <div class="footer-widget-area">
             <div class="container container-default custom-area">
                 <div class="row">
@@ -1595,11 +1596,11 @@
                         <div class="single-footer-widget">
                             <h2 class="widget-title">Information</h2>
                             <ul class="widget-list">
-                                <li><a href="about-us.html">Our Company</a></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
-                                <li><a href="about-us.html">Our Services</a></li>
-                                <li><a href="about-us.html">Why We?</a></li>
-                                <li><a href="about-us.html">Careers</a></li>
+                                <li><a href="@Url.Action("AboutUs","AboutUs")">Our Company</a></li>
+                                <li><a href="@Url.Action("ContactUs","ContactUs")">Contact Us</a></li>
+                                <li><a href="@Url.Action("AboutUs","AboutUs")">Our Services</a></li>
+                                <li><a href="@Url.Action("AboutUs","AboutUs")">Why We?</a></li>
+                                <li><a href="@Url.Action("AboutUs","AboutUs")">Careers</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1607,11 +1608,11 @@
                         <div class="single-footer-widget">
                             <h2 class="widget-title">Quicklink</h2>
                             <ul class="widget-list">
-                                <li><a href="about-us.html">About</a></li>
+                                <li><a href="@Url.Action("AboutUs","AboutUs")">About</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="shop.html">Shop</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="contact-us.html">Contact</a></li>
+                                <li><a href="@Url.Action("CartPage","Shop")">Cart</a></li>
+                                <li><a href="@Url.Action("ContactUs","ContactUs")">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1619,11 +1620,11 @@
                         <div class="single-footer-widget">
                             <h2 class="widget-title">Support</h2>
                             <ul class="widget-list">
-                                <li><a href="contact-us.html">Online Support</a></li>
-                                <li><a href="contact-us.html">Shipping Policy</a></li>
-                                <li><a href="contact-us.html">Return Policy</a></li>
-                                <li><a href="contact-us.html">Privacy Policy</a></li>
-                                <li><a href="contact-us.html">Terms of Service</a></li>
+                                <li><a href="@Url.Action("ContactUs","ContactUs")">Online Support</a></li>
+                                <li><a href="@Url.Action("ContactUs","ContactUs")">Shipping Policy</a></li>
+                                <li><a href="@Url.Action("ContactUs","ContactUs")">Return Policy</a></li>
+                                <li><a href="@Url.Action("ContactUs","ContactUs")">Privacy Policy</a></li>
+                                <li><a href="@Url.Action("ContactUs","ContactUs")">Terms of Service</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1682,8 +1683,8 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
                                             <span>1 Review</span>
                                         </div>
                                         <p class="desc-content">we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame bel...</p>
@@ -1709,7 +1710,7 @@
                                                 </div>
                                             </div>
                                             <div class="add-to_btn">
-                                                <a class="btn product-cart button-icon flosun-button dark-btn" href="cart.html">Add to cart</a>
+                                                <a class="btn product-cart button-icon flosun-button dark-btn" href="@Url.Action("CartPage","Shop")">Add to cart</a>
                                                 <a class="btn flosun-button secondary-btn rounded-0" href="@Url.Action("Wishlist","Shop")">Add to wishlist</a>
                                             </div>
                                         </div>
