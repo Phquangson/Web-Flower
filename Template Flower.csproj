@@ -120,8 +120,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AboutUsController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
+    <Compile Include="Controllers\ContactUsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PagesController.cs" />
     <Compile Include="Controllers\ShopController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -167,6 +170,8 @@
     <Content Include="assets\css\vendor\bootstrap.min.css" />
     <Content Include="assets\css\vendor\font.awesome.min.css" />
     <Content Include="assets\css\vendor\linearicons.min.css" />
+    <Content Include="assets\images\about\1.jpg" />
+    <Content Include="assets\images\about\2.jpg" />
     <Content Include="assets\images\banner\1-1.jpg" />
     <Content Include="assets\images\banner\1-2.jpg" />
     <Content Include="assets\images\banner\1-3.jpg" />
@@ -205,6 +210,9 @@
     <Content Include="assets\images\review\1.jpg" />
     <Content Include="assets\images\slider\Slider1.png" />
     <Content Include="assets\images\slider\Slider2.png" />
+    <Content Include="assets\images\team\1.jpg" />
+    <Content Include="assets\images\team\2.jpg" />
+    <Content Include="assets\images\team\3.jpg" />
     <Content Include="assets\images\testimonial\testimonial1.jpg" />
     <Content Include="assets\images\testimonial\testimonial2.jpg" />
     <Content Include="assets\js\main.js" />
@@ -281,6 +289,13 @@
     <Content Include="Views\Shop\Wishlist.cshtml" />
     <Content Include="Views\Blog\Blog.cshtml" />
     <Content Include="Views\Blog\BlogDetails.cshtml" />
+    <Content Include="Views\Pages\Contact.cshtml" />
+    <Content Include="Views\Pages\MyAccount.cshtml" />
+    <Content Include="Views\Pages\FAQ.cshtml" />
+    <Content Include="Views\Pages\Login.cshtml" />
+    <Content Include="Views\Pages\Register.cshtml" />
+    <Content Include="Views\AboutUs\AboutUs.cshtml" />
+    <Content Include="Views\ContactUs\ContactUs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
