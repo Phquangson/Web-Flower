@@ -32,6 +32,8 @@
     <!-- CSS
     ============================================ -->
 
+    <link href="~/assets/css/1-global/_helper.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="~/assets/css/style.css">
 
     <link rel="stylesheet" href="~/assets/css/vendor/bootstrap.min.css">
@@ -53,8 +55,9 @@
     <link rel="stylesheet" href="~/assets/css/2-layout/_header.css">
 
     <link href="~/assets/css/3-pages/_shop.css" rel="stylesheet" />
-    
+
     <link href="~/assets/css/plugins/nice-select.min.css" rel="stylesheet" />
+
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -115,7 +118,7 @@
                                                 <li><a href="@Url.Action("Page404","Shop")">Error 404</a></li>
                                                 <li><a href="@Url.Action("ComparePage","Shop")">Compare Page</a></li>
                                                 <li><a href="@Url.Action("CartPage","Shop")">Cart Page</a></li>
-                                                <li><a href="checkout.html">Checkout Page</a></li>
+                                                <li><a href="@Url.Action("CheckoutPage","Shop")">Checkout Page</a></li>
                                                 <li><a href="wishlist.html">Wishlist Page</a></li>
                                             </ul>
                                         </div>
@@ -223,7 +226,7 @@
                                         </div>
                                         <div class="cart-links d-flex justify-content-between">
                                             <a class="btn product-cart button-icon flosun-button dark-btn" href="cart.html">View cart</a>
-                                            <a class="btn flosun-button secondary-btn rounded-0" href="checkout.html">Checkout</a>
+                                            <a class="btn flosun-button secondary-btn rounded-0" href="@Url.Action("CheckoutPage","Shop")">Checkout</a>
                                         </div>
                                     </div>
                                 </li>
@@ -312,7 +315,7 @@
                                                 <li><a href="error404.html">Error 404</a></li>
                                                 <li><a href="compare.html">Compare Page</a></li>
                                                 <li><a href="cart.html">Cart Page</a></li>
-                                                <li><a href="checkout.html">Checkout Page</a></li>
+                                                <li><a href="@Url.Action("CheckoutPage","Shop")">Checkout Page</a></li>
                                                 <li><a href="wishlist.html">Wish List Page</a></li>
                                             </ul>
                                         </li>
@@ -527,13 +530,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+<i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+<i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+<i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -593,13 +596,13 @@
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+<i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+<i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+<i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -660,13 +663,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+<i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+<i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+<i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -726,13 +729,13 @@
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+                                                <i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                                <i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                                <i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -792,13 +795,13 @@
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+<i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+<i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+<i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -859,13 +862,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+<i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+<i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+<i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -926,13 +929,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+<i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+<i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+<i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -993,13 +996,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+<i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+<i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+<i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -1060,13 +1063,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+<i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+<i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+<i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -1126,13 +1129,13 @@
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+<i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+<i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+<i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -1192,13 +1195,13 @@
                                         </a>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+<i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+<i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+<i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -1259,13 +1262,13 @@
                                         <span class="onsale">Sale!</span>
                                         <div class="add-action d-flex flex-column position-absolute">
                                             <a href="compare.html" title="Compare">
-                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+<i class="fa-solid fa-repeat"></i>
                                             </a>
                                             <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+<i class="fa-regular fa-heart"></i>
                                             </a>
                                             <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+<i class="fa-solid fa-eye"></i>
                                             </a>
                                         </div>
                                     </div>
