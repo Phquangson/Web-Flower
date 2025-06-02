@@ -35,5 +35,10 @@ namespace Template_Flower.Controllers
             return View();
         }
 
+        public ActionResult Wishlist()
+        {
+            return View();
+        }
+
     }
 }
